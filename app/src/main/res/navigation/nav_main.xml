@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/schoolListFragment">
+
+    <fragment
+        android:id="@+id/schoolListFragment"
+        android:name="edu.naeemaziz.nycschool.ui.SchoolListFragment"
+        android:label="fragment_school_list"
+        tools:layout="@layout/fragment_school_list" >
+        <action
+            android:id="@+id/action_schoolListFragment_to_satScoreFragment"
+            app:destination="@id/satScoreFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/satScoreFragment"
+        android:name="edu.naeemaziz.nycschool.ui.SatScoreFragment"
+        android:label="fragment_sat_score"
+        tools:layout="@layout/fragment_sat_score" >
+        <argument
+            android:name="dbn"
+            app:argType="string" />
+        <argument
+            android:name="address"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_satScoreFragment_to_schoolListFragment"
+            app:destination="@id/schoolListFragment" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_schoolListFragment"
+        app:destination="@id/schoolListFragment" />
+</navigation>
