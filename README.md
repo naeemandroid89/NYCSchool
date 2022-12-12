@@ -7,10 +7,10 @@
 
 # ScreenShots1
 
-<img src="https://user-images.githubusercontent.com/116047657/206973009-13f23d60-391c-4586-bcb6-901b161672a0.png" width="300" height="500" />
+<img src="https://user-images.githubusercontent.com/116047657/206973009-13f23d60-391c-4586-bcb6-901b161672a0.png" width="280" height="600" />
 
 # ScreenShots2
-<img src="https://user-images.githubusercontent.com/116047657/206973080-c7e94314-ea9d-4df2-b2ab-7955faf5f6f6.png" width="300" height="500" />
+<img src="https://user-images.githubusercontent.com/116047657/206973080-c7e94314-ea9d-4df2-b2ab-7955faf5f6f6.png" width="280" height="600" />
 
 
 
